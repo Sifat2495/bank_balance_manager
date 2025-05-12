@@ -1,0 +1,53 @@
+name: card_balance_tracker
+description: A card balance tracking application with offline storage
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  cupertino_icons: ^1.0.6
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.5
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/wallet.png"
+
+flutter_native_splash:
+  android: false
+  ios: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/dbbll.png
+    - assets/sonali.png
+    - assets/brac.jpg
+    - assets/nbl.png
+    - assets/Bkash.png
+    - assets/rocket.png
+    - assets/nagad.png
+    - assets/islami.png
+    - assets/standard.png
+    - assets/prime.png
+    - assets/eastern.png
+    - assets/ucb.png
+    - assets/mtb.png
+    - assets/fsib.png
+    - assets/icons/wallet.png
+    - assets/icons/splash.png
+    - assets/icons/splash1.png
