@@ -27,8 +27,8 @@ Take a look at the app in action:
 ## 🛠️ Installation
 
 1. **Clone the repository**
-   git clone https://github.com/your-username/offline-balance-tracker.git
-   cd offline-balance-tracker
+   git clone https://github.com/Sifat2495/bank_balance_manager.git
+   cd bank_balance_manager
    
    **Install dependencies**
     flutter pub get
